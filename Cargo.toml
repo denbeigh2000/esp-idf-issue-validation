@@ -6,8 +6,9 @@ edition = "2021"
 resolver = "2"
 rust-version = "1.77"
 
-[[metadata.esp-idf-sys]]
+[package.metadata.esp-idf-sys]
 esp_idf_tools_install_dir = "/path/to/somewhere/nonexistant"
+idf_path = "/path/to/somewhere/nonexistant"
 
 [[bin]]
 name = "hello-esp-idf"
