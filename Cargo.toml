@@ -10,7 +10,7 @@ rust-version = "1.77"
 esp_idf_tools_install_dir = "/path/to/somewhere/nonexistant"
 idf_path = "/path/to/somewhere/nonexistant"
 
-[package.metadata.esp-idf-sys]
+[package.metadata.v]
 esp_idf_tools_install_dir = "/path/to/somewhere/nonexistant"
 idf_path = "/path/to/somewhere/nonexistant"
 
